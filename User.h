@@ -1,5 +1,4 @@
 #pragma once
-#include <string>
 #include "Message.h"
 
 class User
@@ -9,7 +8,7 @@ class User
 	std::string _name;
 
 public:
-	User(const std::string& login, const std::string& password, const std::string& name): _login(login), _password(password), _name(name){}
+	User(const std::string& login, const std::string& password, const std::string& name) : _login(login), _password(password), _name(name) {}
 	~User() = default;
 
 	const std::string& getUserLogin() const { return _login; }
@@ -20,4 +19,3 @@ public:
 	void setUserPassword(const std::string& password) { _password = password; }
 	void setUserName(const std::string& name) { _name = name; }
 };
-

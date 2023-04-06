@@ -1,2 +1,2 @@
-# Training_console_chat
-Группа 1007
+
+Группа CPLUS-1007
